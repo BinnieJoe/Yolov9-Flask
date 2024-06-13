@@ -1,4 +1,11 @@
 # Yolov9_Flask
+Object Detection in Images and Videos Using YOLOv9 in Web-Based Implementation
 
-##Summary
-Object Detection in Images and Videos Using YOLOv9: A Web-Based Implementation
+## Start
+```
+pip install -r requirements.txt
+```
+
+```
+python main.py
+```
