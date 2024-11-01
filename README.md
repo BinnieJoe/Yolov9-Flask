@@ -3,14 +3,7 @@ This project involves custom training the YOLOv9 model to recognize specific obj
 
 After training the model using YOLOv9, we utilized Flask to implement a feature where users can upload images, and the system performs object detection, displaying the resulting images on the webpage. The webpage visually presents the bounding boxes and labels of the recognized objects, while also indicating the processing time to highlight the model's efficiency.
 
-
-
-
-
-
-
-
-## Start
+## Working
 ```
 git clone https://github.com/ultralytics/yolov5.git
 ```
