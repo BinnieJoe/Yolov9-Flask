@@ -17,7 +17,7 @@ python main.py
 ```
 
 ## For Datatset
-Making myGlob.py
+- Making myGlob.py
 ```
 from glob import glob
 train_img_list = glob('D:/hdh2024/BCCD/yolov5/dataSet/train/images/*.jpg')
@@ -34,7 +34,7 @@ if len(train_img_list) > 0 :
     with open('D:/hdh2024/BCCD/yolov5/dataSet/val.txt','w') as f:
         f.write('\n'.join(valid_img_list) + '\n')
 ```
-Modifying the data.yaml file
+- Modifying the data.yaml file
 ```
 train: D:/hdh2024/BCCD/yolov5/dataSet/train/images
 val: D:/hdh2024/BCCD/yolov5/dataSet/valid/images
