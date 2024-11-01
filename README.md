@@ -1,4 +1,4 @@
-# Real-Time Object Detection with YOLOv9 and Flask
+# Flask-Based Object Detection Using YOLOv9
 Object Detection in Images and Videos Using YOLOv9 in Web-Based Implementation
 
 ## Start
