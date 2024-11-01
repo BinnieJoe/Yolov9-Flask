@@ -27,18 +27,18 @@ print(len(train_img_list), len(test_img_list), len(valid_img_list))
 import yaml
 
 if len(train_img_list) > 0 :    
-    with open('D:/hdh2024/BCCD/yolov5/dataSet/train.txt','w') as f:
+    with open(' c:/joe/bin/yolov5/dataSet/train.txt','w') as f:
         f.write('\n'.join(train_img_list) + '\n')
-    with open('D:/hdh2024/BCCD/yolov5/dataSet/test.txt','w') as f:
+    with open(' c:/joe/bin/yolov5/dataSet/test.txt','w') as f:
         f.write('\n'.join(test_img_list) + '\n')
-    with open('D:/hdh2024/BCCD/yolov5/dataSet/val.txt','w') as f:
+    with open(' c:/joe/bin/yolov5/dataSet/val.txt','w') as f:
         f.write('\n'.join(valid_img_list) + '\n')
 ```
 - Modifying the data.yaml file
 ```
-train: D:/hdh2024/BCCD/yolov5/dataSet/train/images
-val: D:/hdh2024/BCCD/yolov5/dataSet/valid/images
+train: c:/joe/bin/yolov5/dataSet/train/images
+val: c:/joe/bin/yolov5/dataSet/valid/images
 
-nc: 3
-names: ['Platelets', 'RBC', 'WBC']
+nc: 4
+names: ['Car', 'Person', 'Traffic Light', 'Bicycle']
 ```
