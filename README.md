@@ -34,3 +34,11 @@ if len(train_img_list) > 0 :
     with open('D:/hdh2024/BCCD/yolov5/dataSet/val.txt','w') as f:
         f.write('\n'.join(valid_img_list) + '\n')
 ```
+Modifying the data.yaml file
+```
+train: D:/hdh2024/BCCD/yolov5/dataSet/train/images
+val: D:/hdh2024/BCCD/yolov5/dataSet/valid/images
+
+nc: 3
+names: ['Platelets', 'RBC', 'WBC']
+```
