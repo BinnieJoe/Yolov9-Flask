@@ -3,6 +3,13 @@ This project involves custom training the YOLOv9 model to recognize specific obj
 
 After training the model using YOLOv9, we utilized Flask to implement a feature where users can upload images, and the system performs object detection, displaying the resulting images on the webpage. The webpage visually presents the bounding boxes and labels of the recognized objects, while also indicating the processing time to highlight the model's efficiency.
 
+## Skills
+- **Python**: Programming skills in Python for developing real-time object detection systems.
+- **PyTorch**: Experience utilizing PyTorch for training deep learning models.
+- **Roboflow**: Ability to use Roboflow for dataset management and preprocessing.
+- **Flask**: Experience using the Flask framework to visualize real-time object detection results in web applications.
+- **HTML**: Experience with HTML used for building web page layouts through Flask.
+
 ## Working
 ```
 git clone https://github.com/ultralytics/yolov5.git
